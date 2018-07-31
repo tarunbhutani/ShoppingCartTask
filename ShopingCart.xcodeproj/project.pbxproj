@@ -1,0 +1,589 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3DD3F72821103822005CC929 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DD3F72721103822005CC929 /* AppDelegate.swift */; };
+		3DD3F72A21103822005CC929 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DD3F72921103822005CC929 /* ViewController.swift */; };
+		3DD3F72D21103822005CC929 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DD3F72B21103822005CC929 /* Main.storyboard */; };
+		3DD3F72F21103824005CC929 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3DD3F72E21103824005CC929 /* Assets.xcassets */; };
+		3DD3F73221103824005CC929 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DD3F73021103824005CC929 /* LaunchScreen.storyboard */; };
+		3DD3F73D21103824005CC929 /* ShopingCartTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DD3F73C21103824005CC929 /* ShopingCartTests.swift */; };
+		3DD3F74821103824005CC929 /* ShopingCartUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DD3F74721103824005CC929 /* ShopingCartUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3DD3F73921103824005CC929 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3DD3F71C21103822005CC929 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3DD3F72321103822005CC929;
+			remoteInfo = ShopingCart;
+		};
+		3DD3F74421103824005CC929 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3DD3F71C21103822005CC929 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3DD3F72321103822005CC929;
+			remoteInfo = ShopingCart;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3DD3F72421103822005CC929 /* ShopingCart.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShopingCart.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3DD3F72721103822005CC929 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3DD3F72921103822005CC929 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3DD3F72C21103822005CC929 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3DD3F72E21103824005CC929 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3DD3F73121103824005CC929 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3DD3F73321103824005CC929 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3DD3F73821103824005CC929 /* ShopingCartTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShopingCartTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3DD3F73C21103824005CC929 /* ShopingCartTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopingCartTests.swift; sourceTree = "<group>"; };
+		3DD3F73E21103824005CC929 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3DD3F74321103824005CC929 /* ShopingCartUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShopingCartUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3DD3F74721103824005CC929 /* ShopingCartUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopingCartUITests.swift; sourceTree = "<group>"; };
+		3DD3F74921103824005CC929 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3DD3F72121103822005CC929 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DD3F73521103824005CC929 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DD3F74021103824005CC929 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3DD3F71B21103822005CC929 = {
+			isa = PBXGroup;
+			children = (
+				3DD3F72621103822005CC929 /* ShopingCart */,
+				3DD3F73B21103824005CC929 /* ShopingCartTests */,
+				3DD3F74621103824005CC929 /* ShopingCartUITests */,
+				3DD3F72521103822005CC929 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3DD3F72521103822005CC929 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3DD3F72421103822005CC929 /* ShopingCart.app */,
+				3DD3F73821103824005CC929 /* ShopingCartTests.xctest */,
+				3DD3F74321103824005CC929 /* ShopingCartUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3DD3F72621103822005CC929 /* ShopingCart */ = {
+			isa = PBXGroup;
+			children = (
+				3DD3F72721103822005CC929 /* AppDelegate.swift */,
+				3DD3F72921103822005CC929 /* ViewController.swift */,
+				3DD3F72B21103822005CC929 /* Main.storyboard */,
+				3DD3F72E21103824005CC929 /* Assets.xcassets */,
+				3DD3F73021103824005CC929 /* LaunchScreen.storyboard */,
+				3DD3F73321103824005CC929 /* Info.plist */,
+			);
+			path = ShopingCart;
+			sourceTree = "<group>";
+		};
+		3DD3F73B21103824005CC929 /* ShopingCartTests */ = {
+			isa = PBXGroup;
+			children = (
+				3DD3F73C21103824005CC929 /* ShopingCartTests.swift */,
+				3DD3F73E21103824005CC929 /* Info.plist */,
+			);
+			path = ShopingCartTests;
+			sourceTree = "<group>";
+		};
+		3DD3F74621103824005CC929 /* ShopingCartUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3DD3F74721103824005CC929 /* ShopingCartUITests.swift */,
+				3DD3F74921103824005CC929 /* Info.plist */,
+			);
+			path = ShopingCartUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3DD3F72321103822005CC929 /* ShopingCart */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3DD3F74C21103824005CC929 /* Build configuration list for PBXNativeTarget "ShopingCart" */;
+			buildPhases = (
+				3DD3F72021103822005CC929 /* Sources */,
+				3DD3F72121103822005CC929 /* Frameworks */,
+				3DD3F72221103822005CC929 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ShopingCart;
+			productName = ShopingCart;
+			productReference = 3DD3F72421103822005CC929 /* ShopingCart.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3DD3F73721103824005CC929 /* ShopingCartTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3DD3F74F21103824005CC929 /* Build configuration list for PBXNativeTarget "ShopingCartTests" */;
+			buildPhases = (
+				3DD3F73421103824005CC929 /* Sources */,
+				3DD3F73521103824005CC929 /* Frameworks */,
+				3DD3F73621103824005CC929 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3DD3F73A21103824005CC929 /* PBXTargetDependency */,
+			);
+			name = ShopingCartTests;
+			productName = ShopingCartTests;
+			productReference = 3DD3F73821103824005CC929 /* ShopingCartTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3DD3F74221103824005CC929 /* ShopingCartUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3DD3F75221103824005CC929 /* Build configuration list for PBXNativeTarget "ShopingCartUITests" */;
+			buildPhases = (
+				3DD3F73F21103824005CC929 /* Sources */,
+				3DD3F74021103824005CC929 /* Frameworks */,
+				3DD3F74121103824005CC929 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3DD3F74521103824005CC929 /* PBXTargetDependency */,
+			);
+			name = ShopingCartUITests;
+			productName = ShopingCartUITests;
+			productReference = 3DD3F74321103824005CC929 /* ShopingCartUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3DD3F71C21103822005CC929 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = Insynchro;
+				TargetAttributes = {
+					3DD3F72321103822005CC929 = {
+						CreatedOnToolsVersion = 9.4;
+					};
+					3DD3F73721103824005CC929 = {
+						CreatedOnToolsVersion = 9.4;
+						TestTargetID = 3DD3F72321103822005CC929;
+					};
+					3DD3F74221103824005CC929 = {
+						CreatedOnToolsVersion = 9.4;
+						TestTargetID = 3DD3F72321103822005CC929;
+					};
+				};
+			};
+			buildConfigurationList = 3DD3F71F21103822005CC929 /* Build configuration list for PBXProject "ShopingCart" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3DD3F71B21103822005CC929;
+			productRefGroup = 3DD3F72521103822005CC929 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3DD3F72321103822005CC929 /* ShopingCart */,
+				3DD3F73721103824005CC929 /* ShopingCartTests */,
+				3DD3F74221103824005CC929 /* ShopingCartUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3DD3F72221103822005CC929 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DD3F73221103824005CC929 /* LaunchScreen.storyboard in Resources */,
+				3DD3F72F21103824005CC929 /* Assets.xcassets in Resources */,
+				3DD3F72D21103822005CC929 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DD3F73621103824005CC929 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DD3F74121103824005CC929 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3DD3F72021103822005CC929 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DD3F72A21103822005CC929 /* ViewController.swift in Sources */,
+				3DD3F72821103822005CC929 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DD3F73421103824005CC929 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DD3F73D21103824005CC929 /* ShopingCartTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DD3F73F21103824005CC929 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DD3F74821103824005CC929 /* ShopingCartUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3DD3F73A21103824005CC929 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3DD3F72321103822005CC929 /* ShopingCart */;
+			targetProxy = 3DD3F73921103824005CC929 /* PBXContainerItemProxy */;
+		};
+		3DD3F74521103824005CC929 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3DD3F72321103822005CC929 /* ShopingCart */;
+			targetProxy = 3DD3F74421103824005CC929 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3DD3F72B21103822005CC929 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3DD3F72C21103822005CC929 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3DD3F73021103824005CC929 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3DD3F73121103824005CC929 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3DD3F74A21103824005CC929 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3DD3F74B21103824005CC929 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3DD3F74D21103824005CC929 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZM8VHL4XRH;
+				INFOPLIST_FILE = ShopingCart/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.shopingcart.ShopingCart;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3DD3F74E21103824005CC929 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZM8VHL4XRH;
+				INFOPLIST_FILE = ShopingCart/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.shopingcart.ShopingCart;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3DD3F75021103824005CC929 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZM8VHL4XRH;
+				INFOPLIST_FILE = ShopingCartTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.shopingcart.ShopingCartTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ShopingCart.app/ShopingCart";
+			};
+			name = Debug;
+		};
+		3DD3F75121103824005CC929 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZM8VHL4XRH;
+				INFOPLIST_FILE = ShopingCartTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.shopingcart.ShopingCartTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ShopingCart.app/ShopingCart";
+			};
+			name = Release;
+		};
+		3DD3F75321103824005CC929 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZM8VHL4XRH;
+				INFOPLIST_FILE = ShopingCartUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.shopingcart.ShopingCartUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ShopingCart;
+			};
+			name = Debug;
+		};
+		3DD3F75421103824005CC929 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZM8VHL4XRH;
+				INFOPLIST_FILE = ShopingCartUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.shopingcart.ShopingCartUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ShopingCart;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3DD3F71F21103822005CC929 /* Build configuration list for PBXProject "ShopingCart" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DD3F74A21103824005CC929 /* Debug */,
+				3DD3F74B21103824005CC929 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3DD3F74C21103824005CC929 /* Build configuration list for PBXNativeTarget "ShopingCart" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DD3F74D21103824005CC929 /* Debug */,
+				3DD3F74E21103824005CC929 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3DD3F74F21103824005CC929 /* Build configuration list for PBXNativeTarget "ShopingCartTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DD3F75021103824005CC929 /* Debug */,
+				3DD3F75121103824005CC929 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3DD3F75221103824005CC929 /* Build configuration list for PBXNativeTarget "ShopingCartUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DD3F75321103824005CC929 /* Debug */,
+				3DD3F75421103824005CC929 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3DD3F71C21103822005CC929 /* Project object */;
+}
