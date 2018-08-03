@@ -11,20 +11,20 @@ import Foundation
 class Tax: NSObject, NSCoding {
     
     var name:String?
-    var value:String?
+    var value:Double?
     
     init?(with json : Any?) {
         guard let jsonObj = json as? [String:Any] else {
             return nil
         }
         self.name = jsonObj["name"] as? String
-        self.value = jsonObj["value"] as? String
+        self.value = jsonObj["value"] as? Double
     }
     
     required init?(coder decoder: NSCoder) {
         if let name = decoder.decodeObject(forKey: "name") as? String{ self.name = name }
         
-        if let value = decoder.decodeObject(forKey: "value") as? String{ self.value = value }
+        if let value = decoder.decodeObject(forKey: "value") as? Double{ self.value = value }
     }
     
     func encode(with coder: NSCoder) {

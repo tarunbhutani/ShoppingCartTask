@@ -56,7 +56,7 @@ class ProductDescriptionViewModel: ProductDescriptionViewModelProtocol {
         let priceRange:String = (sortedPrice?.first?.price ?? 0 == sortedPrice?.last?.price ?? 0 ) ? "\(sortedPrice?.first?.price ?? 0)" : "\( sortedPrice?.first?.price ?? 0) - \(sortedPrice?.last?.price ?? 0)"
         
         self.productPrice = "INR " + priceRange
-        self.tax = (product?.tax?.value ?? "") + "% " + (product?.tax?.name ?? "")
+        self.tax = String(product?.tax?.value ?? 0.0) + "% " + (product?.tax?.name ?? "")
         self.size = getSize()
         self.dataDidChange?(self)
     }
